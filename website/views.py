@@ -8,11 +8,11 @@ def index_view(request):
 
 def about_view(request):
     # return HttpResponse('<h1>About Page<h1>')
-    return render(request, 'about.html')
+    return render(request, 'website/about.html')
 
 def contact_view(request):
     # return HttpResponse('<h1>Contact Page<h1>')
-    return render(request, 'contact.html')
+    return render(request, 'website/contact.html')
 
 def json_test(request):
     return JsonResponse({'name':'ali'})
